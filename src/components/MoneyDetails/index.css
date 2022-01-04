@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.unordered-list-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 60vw;
+  padding-left: 0;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecfccb;
+  border: solid;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #84cc16;
+  padding: 10px;
+  height: 80px;
+  margin-right: 20px;
+  width: 20vw;
+}
+.image-style {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+.heading-element {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.money-item {
+  margin-top: 5px;
+}
+.color-income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.color-expenses {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}

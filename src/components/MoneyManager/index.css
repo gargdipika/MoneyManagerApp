@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.welcome-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 20ch;
+  background-size: cover;
+  border-radius: 15px;
+  width: 60vw;
+}
+.last-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 60vw;
+}
+.form-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-right: 60px;
+  height: 320px;
+  border: 1px solid #7e858e;
+  border-radius: 15px;
+  width: 270px;
+  margin-top: 20px;
+}
+.margin {
+  margin-bottom: 10px;
+  height: 30px;
+}
+.button-style {
+  height: 34px;
+  width: 80px;
+  background-color: #06b6d4;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 400px;
+  border: 1px solid #7e858e;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.history-item {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.history-item-container {
+  border: 1px solid #7e858e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 40px;
+}
