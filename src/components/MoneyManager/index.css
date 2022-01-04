@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: 'Roboto';
 }
 .welcome-card {
   background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
@@ -12,6 +13,10 @@
   background-size: cover;
   border-radius: 15px;
   width: 60vw;
+  padding: 20px;
+}
+.span-style {
+  color: #0b69ff;
 }
 .last-container {
   display: flex;
@@ -55,14 +60,20 @@
 }
 .history-item {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
   list-style: none;
+  border: 1px solid #7e858e;
+  height: 30px;
 }
 .history-item-container {
-  border: 1px solid #7e858e;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   width: 350px;
-  height: 40px;
+  padding-left: 0;
+}
+.paragraph {
+  width: 130px;
+  margin-left: 10px;
+  font-size: 12px;
 }

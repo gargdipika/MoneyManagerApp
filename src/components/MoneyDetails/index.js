@@ -2,7 +2,7 @@
 import './index.css'
 
 const MoneyDetails = props => {
-  const {monetDetail} = props
+  const {income, balance, expenses} = props
   return (
     <ul className="unordered-list-container">
       <li className="list-item">
@@ -12,8 +12,10 @@ const MoneyDetails = props => {
           alt="balance"
         />
         <div>
-          <h6 className="heading-element">Your Balance</h6>
-          <h3 className="money-item">RS 40000</h3>
+          <p className="heading-element">Your Balance</p>
+          <p testid="balanceAmount" className="money-item">
+            RS {balance}
+          </p>
         </div>
       </li>
       <li className="list-item color-income">
@@ -23,8 +25,10 @@ const MoneyDetails = props => {
           alt="income"
         />
         <div>
-          <h6 className="heading-element">Your Income</h6>
-          <h3 className="money-item">RS 40000</h3>
+          <p className="heading-element">Your Income</p>
+          <p testid="incomeAmount" className="money-item">
+            RS {income}
+          </p>
         </div>
       </li>
       <li className="list-item color-expenses">
@@ -34,8 +38,10 @@ const MoneyDetails = props => {
           alt="expenses"
         />
         <div>
-          <h6 className="heading-element">Your Expenses</h6>
-          <h3 className="money-item">RS 40000</h3>
+          <p className="heading-element">Your Expenses</p>
+          <p testid="expensesAmount" className="money-item">
+            RS {expenses}
+          </p>
         </div>
       </li>
     </ul>

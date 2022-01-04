@@ -1,6 +1,16 @@
 /* Write your CSS here */
-.history-item {
+.button {
+  background-color: transparent;
+  border: none;
+}
+.delete-icon-style {
+  height: 28px;
+}
+.paragraph2 {
+  font-size: 12px;
+}
+.delete-icon-container {
   display: flex;
-  justify-content: space-around;
-  list-style: none;
+  width: 130px;
+  justify-content: space-between;
 }
